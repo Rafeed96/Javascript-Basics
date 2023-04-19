@@ -68,10 +68,14 @@ body{
     justify-content: center;
     border: 3px solid var(--line-border-empty);
     transform: .4s ease;
+    transition: .4s ease;
 }
 
 .circle.active {
-    border-color: #3498db;
+    border-color: #141414;
+    background-color: #edd072;
+    color: #000000;
+    transition: .4s ease;
 }
 
 .btn {

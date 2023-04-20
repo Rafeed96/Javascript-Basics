@@ -84,7 +84,22 @@ nav ul li{
     color: #fff;
     margin: 40px 0;
     transform: translateX(-100%);
+    transition: tranform 0.4s ease-in;
 }
+
+nav ul li i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+nav ul li + li {
+    margin-left: 15px;
+}
+
+nav ul li + li + li{
+    margin-left: 30px;
+}
+
 
 .container img {
     max-width: 100%;

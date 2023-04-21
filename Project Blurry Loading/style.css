@@ -15,14 +15,14 @@ body{
 }
 
 .bg {
-    background: url("https://wallpapers.com/images/featured/jabvk7ta2tu43041.jpg") no-repeat center center/cover;
+    background: url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700122150.jpg") no-repeat center center/cover;
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px); 
+    height: calc(100vh + 60px); 
     z-index: -1;
-    filter: blur(70px);
+    filter: blur(30px);
 }
 
 .loading-text {

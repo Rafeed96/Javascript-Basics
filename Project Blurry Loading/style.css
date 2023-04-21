@@ -13,3 +13,19 @@ body{
     overflow: hidden;
     margin: 0;
 }
+
+.bg {
+    background: url("https://wallpapers.com/images/featured/jabvk7ta2tu43041.jpg") no-repeat center center/cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    filter: blur(70px);
+}
+
+.loading-text {
+    font-size: 50px;
+    color: #fff;
+}

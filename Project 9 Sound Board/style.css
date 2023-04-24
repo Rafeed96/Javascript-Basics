@@ -16,3 +16,17 @@ body{
     overflow: hidden ;
     margin: 0;
 }
+
+.btn {
+    background-color: rgb(64, 74, 219);
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.2rem;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btn:hov

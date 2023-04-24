@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgb(59, 133, 70);
+    background-color: rgb(113, 113, 113);
     font-family: 'Poppins', sans-serif;
     display: flex;
     flex-wrap: wrap;
@@ -18,7 +18,7 @@ body{
 }
 
 .btn {
-    background-color: rgb(64, 74, 219);
+    background-color: rgb(44, 44, 44);
     border-radius: 5px;
     border: none;
     color: #fff;
@@ -29,4 +29,10 @@ body{
     cursor: pointer;
 }
 
-.btn:hov
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn:focus {
+    outline: none;
+}

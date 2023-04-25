@@ -9,11 +9,11 @@ generateJoke()
 function generateJoke() {
     const config = {
         headers: {
-            'Accept': 'application/json'
-        }
+            Accept: 'application/json',
+        },
     }
 
-    fetch('https//icanhazdadjoke.com', config)
+    fetch('https://icanhazdadjoke.com/', config)
         .then((res) => res.json())
         .then((data) => {
             jokeEl.innerHTML = data.joke

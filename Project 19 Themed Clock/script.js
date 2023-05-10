@@ -31,5 +31,5 @@
     const minutes = time.getMinutes()
     const seconds = time.getSeconds()
 
-    
+    hourEl.style.transform = `trans`
  }

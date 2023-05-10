@@ -31,5 +31,13 @@
     const minutes = time.getMinutes()
     const seconds = time.getSeconds()
 
-    hourEl.style.transform = `trans`
+    hourEl.style.transform = `translate(-50%, -100%) rotate(${scale(hoursForClock, 0, 11, 0, 360)}deg)`
  }
+
+const scale = (num, in_min, in_max, out_min, out_max) => {
+    return (num - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
+}
+
+
+
+ setTime()

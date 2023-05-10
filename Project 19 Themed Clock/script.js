@@ -20,6 +20,16 @@
         html.classList.add('dark')
         e.target.innerHTML = 'Light mode'
     }
-
-
  })
+
+ function setTime() {
+    const time = new Date()
+    const month = time.getMonth()
+    const day = time.getDay()
+    const hour = time.getHours()
+    const hoursForClock = hours % 12
+    const minutes = time.getMinutes()
+    const seconds = time.getSeconds()
+
+    
+ }

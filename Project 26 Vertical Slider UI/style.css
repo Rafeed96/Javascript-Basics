@@ -59,3 +59,15 @@ body{
     height: 100%;
     width: 100%;
 }
+
+button {
+
+}
+
+.slider-container .action-button button {
+    position: absolute;
+    left: 35%;
+    top: 50%;
+    z-index: 100;
+
+}

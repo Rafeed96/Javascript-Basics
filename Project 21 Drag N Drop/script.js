@@ -16,27 +16,22 @@ function dragStart() {
     setTimeout(() => this.className = 'invisible', 0)
 }
 
-
 function dragEnd() {
-    this.className += 'fill'
+    this.className = 'fill'
 }
-
 
 function dragOver(e) {
-    empties.preventDefault()
+    e.preventDefault()
 }
-
 
 function dragEnter(e) {
-    empties.preventDefault()
-    this.className += 'hovered'
+    e.preventDefault()
+    this.className += ' hovered'
 }
-
 
 function dragLeave() {
     this.className = 'empty'
 }
-
 
 function dragDrop() {
     this.className = 'empty'

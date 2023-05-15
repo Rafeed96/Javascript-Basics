@@ -79,7 +79,7 @@ button:focus {
 }
 
 
-.slider-container .action-button button {
+.slider-container .action-buttons button {
     position: absolute;
     left: 35%;
     top: 50%;
@@ -87,12 +87,12 @@ button:focus {
 
 }
 
-.slide-container .action-button .down-button {
+.slide-container .action-buttons .down-button {
     transform: translateX(-100%);
 }
 
 
 
-.slide-container .action-button .up-button {
+.slide-container .action-buttons .up-button {
     transform: translateY(-100%);
 }

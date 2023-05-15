@@ -40,6 +40,7 @@ body{
     font-size: 40px;
     margin-bottom: 10px;
     margin-top: -30px;
+    transition: transform 0.5s ease-in-out ;
 }
 
 
@@ -49,6 +50,7 @@ body{
     top: 0;
     left: 35%;
     width: 65%;
+    transition: transform 0.5s ease-in-out ;
 }
 
 

@@ -87,12 +87,16 @@ button:focus {
 
 }
 
-.slide-container .action-buttons .down-button {
+.slider-container .action-buttons .down-button {
     transform: translateX(-100%);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
 
 
 
-.slide-container .action-buttons .up-button {
+.slider-container .action-buttons .up-button {
     transform: translateY(-100%);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }

@@ -5,6 +5,7 @@
 }
 
 body{
+    background-color: #373737;
     font-family: 'Poppins', sans-serif;
     display: flex;
     flex-wrap: wrap;
@@ -17,7 +18,7 @@ body{
     top: 1rem;
     right: 1rem;
     background-color: #9ec862;
-    color: #fff;
+    color: #000000;
     border: none;
     border-radius: 3px;
     padding: 0.5rem 1rem;
@@ -50,4 +51,16 @@ body{
 
 
 
+.note textarea {
+    outline: none;
+    font-family: inherit;
+    font-size: 1.2rem;
+    border: none;
+    height: 400px;
+    width: 100%;
+    padding: 20px;
+}
 
+.hidden {
+    display: none;
+}

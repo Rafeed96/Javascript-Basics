@@ -16,6 +16,12 @@ function addNewNote(text = '') {
     <div class="main ${text ? "" : "hidden"} "></div>
     <textarea class=" ${text ? "hidden" : ""}"></textarea>
     `
+
+    const editBtn = note.querySelector('edit')
+    const editBtn = note.querySelector('edit')
+    const editBtn = note.querySelector('edit')
+    const editBtn = note.querySelector('edit')
+
     document.body.appendChild(note)
 }
 

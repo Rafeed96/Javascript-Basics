@@ -33,4 +33,6 @@ input {
     text-align: center;
 }
 
-input
+input:focus {
+    outline: none;
+}

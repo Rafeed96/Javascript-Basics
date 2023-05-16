@@ -17,10 +17,10 @@ function addNewNote(text = '') {
     <textarea class=" ${text ? "hidden" : ""}"></textarea>
     `
 
-    const editBtn = note.querySelector('edit')
-    const editBtn = note.querySelector('edit')
-    const editBtn = note.querySelector('edit')
-    const editBtn = note.querySelector('edit')
+    const editBtn = note.querySelector('.edit')
+    const deleteBtn = note.querySelector('.delete')
+    const main = note.querySelector('.main')
+    const textArea = note.querySelector('textarea')
 
     document.body.appendChild(note)
 }

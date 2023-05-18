@@ -11,5 +11,17 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
+    overflow: hidden;
     margin: 0;
+}
+
+.toggle-container {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    width: 200px;
+}
+
+.toggle {
+    visibility: hidden;
 }

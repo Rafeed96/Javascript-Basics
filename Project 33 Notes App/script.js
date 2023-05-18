@@ -22,6 +22,14 @@ function addNewNote(text = '') {
     const main = note.querySelector('.main')
     const textArea = note.querySelector('textarea')
 
+    deleteBtn.addEventListener('click', () => {
+        note.remove()
+    })
+
+    editBtn.addEventListener('click', () => {
+        
+    })
+
     document.body.appendChild(note)
 }
 

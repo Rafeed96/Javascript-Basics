@@ -25,3 +25,19 @@ body{
 .toggle {
     visibility: hidden;
 }
+
+
+.label {
+    position: relative;
+    background-color: #d0d0d0;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 15px 0;
+    width: 80px;
+    height: 40px; 
+}
+
+.toggle:checked + .label {
+    background-color: #8e44ad;
+}

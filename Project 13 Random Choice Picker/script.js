@@ -8,5 +8,8 @@ textarea.addEventListener('keyup', (e) => {
 })
 
 function creatTags(input) {
-    
+    const tags = input.split(',').filter(tag => tag.trim() !== '').map(tag => tag.trim())
+
+    tagsEl.innerHTML = ''
+
 }

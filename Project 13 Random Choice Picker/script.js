@@ -16,6 +16,7 @@ textarea.addEventListener('keyup', (e) => {
 })
 
 function creatTags(input) {
+    console.log(input)
     const tags = input.split(',').filter(tag => tag.trim() !== '').map(tag => tag.trim())
 
     tagsEl.innerHTML = ''
@@ -33,6 +34,12 @@ function randomSelect() {
 
     const interval = setInterval(() => {
         const randomTag = pickRandomTag()
+
+        highlightTag(randomTag)
+
+        setTimeout(() => {
+            unHighlightTag(randomTag)
+        })
     }, 100);
 }
 

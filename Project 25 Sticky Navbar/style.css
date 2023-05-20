@@ -27,9 +27,19 @@ body{
     transition: all .3s ease-in-out;
 }
 
+.nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    transition: all 0.3s ease-in-out;
+}
 
-
-
+nav ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
 
  .hero {
     background-image: url('https://wallpaperaccess.com/full/173874.jpg');

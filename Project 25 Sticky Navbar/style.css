@@ -17,6 +17,20 @@ body{
     margin: 0 auto;
 }
 
+
+.nav {
+    position: fixed;
+    background-color: #222;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all .3s ease-in-out;
+}
+
+
+
+
+
  .hero {
     background-image: url('https://wallpaperaccess.com/full/173874.jpg');
     background-repeat: no-repeat;

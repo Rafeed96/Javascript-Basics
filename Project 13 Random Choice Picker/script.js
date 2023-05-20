@@ -15,7 +15,7 @@ textarea.addEventListener('keyup', (e) => {
     } 
 })
 
-function creatTags(input) {
+function createTags(input) {
     console.log(input)
     const tags = input.split(',').filter(tag => tag.trim() !== '').map(tag => tag.trim())
 

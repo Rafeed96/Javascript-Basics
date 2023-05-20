@@ -54,4 +54,7 @@ body{
     letter-spacing: 1px;
  }
 
- 
+ .content h2, content h3 {
+    font-size: 150%;
+    margin: 10px 0;
+ }

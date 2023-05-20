@@ -17,3 +17,11 @@ body{
     margin: 0 auto;
 }
 
+ .hero {
+    background-image: url('https://wallpaperaccess.com/full/173874.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+    color: #fff;
+ }

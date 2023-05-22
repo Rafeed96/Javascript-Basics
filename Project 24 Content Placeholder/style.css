@@ -21,4 +21,11 @@ img {
 
 .card {
     box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 350px;
+}
+
+.card-header {
+    height: 200px;
 }

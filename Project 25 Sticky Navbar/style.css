@@ -50,6 +50,15 @@ nav ul {
     transition: all 0.3s ease-in-out;
 }
 
+.nav.active {
+    background-color: #fff;
+    box-shadow: rgba(0,0,0,0.3);
+}
+
+.nav.active a {
+    color: #000;
+}
+
  .hero {
     background-image: url('https://wallpaperaccess.com/full/173874.jpg');
     background-repeat: no-repeat;

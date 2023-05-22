@@ -63,6 +63,11 @@ nav ul {
     padding: 10px 0;
 }
 
+.nav a.current, .nav a:hover {
+    color: #c0392b;
+    font-weight: bold;
+}
+
  .hero {
     background-image: url('https://wallpaperaccess.com/full/173874.jpg');
     background-repeat: no-repeat;

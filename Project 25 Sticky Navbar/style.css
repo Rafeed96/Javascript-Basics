@@ -59,6 +59,10 @@ nav ul {
     color: #000;
 }
 
+.nav.active .container {
+    padding: 10px 0;
+}
+
  .hero {
     background-image: url('https://wallpaperaccess.com/full/173874.jpg');
     background-repeat: no-repeat;

@@ -8,7 +8,9 @@ const messages = [
     'Message Four',
 ]
 
-button.addEventListener('click', () => createNotification('This is invalid data'))
+const types = ['info' , 'success', 'error']
+
+button.addEventListener('click', () => createNotification('This is invalid data', 'success'))
 
 function createNotification(message = null, type = null) {
     const notif = document.createElement('div')
@@ -26,4 +28,8 @@ function createNotification(message = null, type = null) {
 
 function getRandomMessage() {
     return messages[Math.floor(Math.random() * messages.length)]
+}
+
+function getRandomType() {
+    return types[Math.floor(Math.random() * messages.length)]
 }

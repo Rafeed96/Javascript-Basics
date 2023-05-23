@@ -49,7 +49,7 @@ function randomSelect() {
 
             highlightTag(randomTag)
         }, 100)
-    }, times * 100)
+    }, time * 100)
 }
 
 function pickRandomTag() {

@@ -47,9 +47,19 @@ body{
 
 .toast {
     background-color: #fff;
-    color: #222;
     border-radius: 5px;
     padding: 1rem 2rem;
     margin: 0.5rem;
 }
 
+.toast.info {
+    color: #222;
+}
+
+.toast.success {
+    color: green;    
+}
+
+.toast.error {
+    color: red;
+}

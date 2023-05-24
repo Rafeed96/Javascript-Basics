@@ -1,11 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
 * {
     box-sizing: border-box;
 }
 
 body{
-    font-family: 'Roboto', sans-serif;
+    background-color: #111;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,3 +11,4 @@ body{
     height: 100vh;
     margin: 0;
 }
+

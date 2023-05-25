@@ -61,4 +61,18 @@ body{
     line-height: 20px;
     max-width: 400px;
     color: #777;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 600px) {
+    .code-container{
+        flex-wrap: wrap;
+    }
+
+    .code {
+        font-size: 60px;
+        height: 80px;
+        max-width: 70px;
+    }
 }

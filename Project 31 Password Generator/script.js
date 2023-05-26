@@ -39,6 +39,10 @@ function generatePassword(lower, upper, number, symbol, length) {
             generatedPassword += randomFunc[funcName]()
         })
     }
+
+    const finalPassword = generatedPassword.slice(0, length)
+
+    return finalPassword
 }
 
 function getRandomLower() {

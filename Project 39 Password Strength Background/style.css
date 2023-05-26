@@ -13,12 +13,12 @@ body{
 }
 
 .background {
-    background: url('https://e0.pxfuel.com/wallpapers/164/112/desktop-wallpaper-anonymous-3632%C3%972083-high-definition.jpg') no-repeat center center/cover;
+    background: url('https://blogger.googleusercontent.com/img/a/AVvXsEiR7lHkXpRm5cpfWL300jfrfcmRhI1HWc8AECW5c1GttrnURpQqNyDMjU_mEPgpTdzXyQ553f6ttLyrdLaI5RXJpkZe26D9MzLKpnBUDjaxJ-PKrq33JoMcWWxm4jAjIqn_6LI2NdeNMKpMhas8Aoh2vsGKp-5Wya8t3JiLsSUY5ulFzvwXeDP1tc7_2Q=w1600') no-repeat center center/cover;
     position: absolute;
     top: -20px;
     bottom: -20px;
     left: -20px;
     right: -20px;
     z-index: -1;
-    filter: blur(0);
+    filter: blur(10px);
 }

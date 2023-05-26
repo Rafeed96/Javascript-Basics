@@ -1,3 +1,12 @@
+const resultEl = document.getElementById('result')
+const lengthEl = document.getElementById('length')
+const uppercaseEl = document.getElementById('uppercase')
+const lowercaseEl = document.getElementById('lowercase')
+const numbersEl = document.getElementById('numbers')
+const symbolsEl = document.getElementById('symbols')
+const generateEl = document.getElementById('generate')
+const clipboardEl = document.getElementById('clipboard')
+
 const randomFunc = {
     lower: getRandomLower,
     upper: getRandomUpper,
@@ -5,6 +14,10 @@ const randomFunc = {
     symbol: getRandomSymbol
 }
 
+generateEl.addEventListener('click', () => {
+    const length = +lengthEl.value
+    console.log(length)
+})
 
 function getRandomLower() {
     return String.fromCharCode(Math.floor(Math.random() * 26) + 97)

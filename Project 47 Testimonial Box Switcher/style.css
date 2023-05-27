@@ -73,6 +73,12 @@ body{
     margin: 10px 0;
 }
 
+.progress-bar {
+    background-color: #fff;
+    height: 4px;
+    width: 100%;
+    animation: grow 10s liner infinite;
+}
 
 
 @media(max-width: 768px) {

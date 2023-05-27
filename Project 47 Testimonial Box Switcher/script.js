@@ -33,7 +33,7 @@ const testimonials = [
         name: 'Abby Lee Marting',
         position: 'Human Resources',
         photo: 'https://media.istockphoto.com/id/1084661126/photo/close-up-of-woman-with-blank-expression.jpg?s=170667a&w=0&k=20&c=QSwgvRNzuJoHz2YghAibK5C_mvGP7ege-K6VecXkIzQ=',
-        text:,
+        text: 'The Landscaping Professionals were quick, courteous and very helpful. They helped me restore my lawn and gardens completely after putting in my deck. I was worried it wouldn’t be done in time for my garden party, but they finished the job with time to spare!'
 
     },
 
@@ -41,7 +41,7 @@ const testimonials = [
         name: 'Kendra Green',
         position: 'Sales',
         photo: 'https://i.pinimg.com/originals/b7/74/fd/b774fd854e367926512a11fff0a5905c.jpg',
-        text:,
+        text: 'This shirt is so soft and comfortable. I was a bit worried about the size running small, but I normally wear a medium and it fits great. It’s so comfortable and breathable, I can wear it to bed or to the gym, and it looks great day-to-day too.'
 
     },
 ]

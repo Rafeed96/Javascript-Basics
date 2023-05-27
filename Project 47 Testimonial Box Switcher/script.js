@@ -6,4 +6,51 @@ const role = document.querySelector('.role')
 
 const testimonials = [
     // Add photo name and images
+    {
+        name:,
+        position:,
+        photo:,
+        text:,
+
+    },
+
+    {
+        name:,
+        position:,
+        photo:,
+        text:,
+
+    },
+
+    {
+        name:,
+        position:,
+        photo:,
+        text:,
+
+    },
+
+    {
+        name:,
+        position:,
+        photo:,
+        text:,
+
+    },
+
+    {
+        name:,
+        position:,
+        photo:,
+        text:,
+
+    },
+
+    {
+        name:,
+        position:,
+        photo:,
+        text:,
+
+    },
 ]

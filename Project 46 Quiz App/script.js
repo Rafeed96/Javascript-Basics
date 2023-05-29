@@ -5,7 +5,7 @@ const quizData = [
         b: "C",
         c: "Python",
         d: "Javascript",
-        corect: "d",
+        correct: "d",
     },
 
     {
@@ -14,7 +14,7 @@ const quizData = [
         b: "Cascading Style Sheets",
         c: "Cascading Simple Sheets",
         d: "Cars SUVs Sailboats",
-        corect: "b",
+        correct: "b",
     },
 
     {
@@ -23,7 +23,7 @@ const quizData = [
         b: "Hypertext Markdown Language",
         c: "Hyperloob Machine Language",
         d: "Helicopters Terminals Motoboats Lamborginis",
-        corect: "a",
+        correct: "a",
     },
 
     {
@@ -32,7 +32,7 @@ const quizData = [
         b: "1995",
         c: "1994",
         d: "none of the above",
-        corect: "b",
+        correct: "b",
     },
 
     {
@@ -41,7 +41,7 @@ const quizData = [
         b: "Python",
         c: "Javascript",
         d: "all of the above",
-        corect: "d",
+        correct: "d",
     },
 
     {
@@ -50,7 +50,7 @@ const quizData = [
         b: "Central Process Unit",
         c: "Read Only Memory",
         d: "Hard Disk",
-        corect: "b",
+        correct: "b",
     },
 ];
 
@@ -99,6 +99,11 @@ function getSelected() {
 
 submitBtn.addEventListener('click', () => {
     const answer = getSelected()
-    console.log(answer)
+
+    if(answer) {
+        if(answer === quizData[currentQuiz].correct) {
+
+        }
+    }
 })
 

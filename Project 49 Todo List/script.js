@@ -25,8 +25,6 @@ function addTodo(todo) {
 
         todoEl.addEventListener('click', () => {
              todoEl.classList.toggle('completed')
-
-             console.log('clocked')    
         })
 
         todoEl.addEventListener('contextmenu', (e) => {

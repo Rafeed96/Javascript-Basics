@@ -31,6 +31,8 @@ function addTodo(todo) {
 
         todoEl.addEventListener('click', () => {
              todoEl.classList.toggle('completed')
+
+             
         })
 
         todoEl.addEventListener('contextmenu', (e) => {
@@ -55,10 +57,10 @@ function updateLS() {
     todosEl.forEach(todoEl => {
         todos.push({
             text: todoEl.innerText,
-            completed: todoEl.classList.containes('completed')
+            completed: todoEl.classList.contains('completed')
         })
     })
-
+ 
     localStorage.setItem('todos', JSON.stringify(todos))
 }
 

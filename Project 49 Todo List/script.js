@@ -8,3 +8,12 @@ form.addEventListener('submit', (e) => {
     addTodo()
 })
 
+function addTodo(todo) {
+    let todoText = input.value
+
+    if(todo) {
+        todoText = todo.text
+    }
+
+    console.log(todoText)
+}

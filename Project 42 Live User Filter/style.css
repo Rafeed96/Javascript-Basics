@@ -55,4 +55,18 @@ body{
 .user-list {
     background-color: #fff;
     list-style-type: none;
+    margin: 0;
+    padding: 0;
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.user-list li {
+    display: flex;
+    padding: 20px;
+}
+
+.user-list img {
+    border-radius: 50%;
+    object-fit: cover;
 }

@@ -36,7 +36,7 @@ function filterData(searchTerm) {
         if(item.innerText.toLowerCase().includes(searchTerm.toLowerCase())) {
             item.classList.remove('hide')
         } else {
-            
+            item.classList.add('hide')
         }
     })
 }

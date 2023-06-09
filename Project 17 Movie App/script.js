@@ -31,10 +31,10 @@ function showMovies(movies){
         movieEl.innerHTML = `
         
         <div class="movie">
-        <img src="https://dcmp.org/images/learning_center/34/34-1.jpg" alt="">
+        <img src="${IMG_PATH + poster_path}" alt="${title}">
         <div class="movie-info">
-            <h3>Movie Title</h3>
-            <span class="green">9.8</span>
+            <h3>${title}</h3>
+            <span class="green">${vote_average}</span>
 
         </div>
 
@@ -47,6 +47,11 @@ function showMovies(movies){
         `
     })
 }
+
+function getClassByRate(vote) {
+    
+}
+
 
 form.addEventListener('submit', (e) => {
     e.preventDefault()

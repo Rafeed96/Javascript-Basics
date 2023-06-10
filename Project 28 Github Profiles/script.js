@@ -13,6 +13,32 @@ async function getUser(username) {
     }        
 }
 
+function createUserCard(user) {
+    const cardHTML = ` 
+    <div class="card">
+            <div>
+                <img src="https://randomuser.me/api/portraits/men/30.jpg" alt="" class="avatar">
+            </div>
+            <div class="user-info">
+                <h2>Jhon Doe</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores numquam culpa corporis harum atque repudiandae.</p>
+                <ul>
+                    <li>300 <strong>Followers</strong></li>
+                    <li>100 <strong>Followeing</strong></li>
+                    <li>30<strong>Repos</strong></li>
+                </ul>
+
+                <div class="repos">
+                    <a href="#" class="repo">Repo 1</a>
+                    <a href="#" class="repo">Repo 2</a>
+                    <a href="#" class="repo">Repo 3</a>
+                </div>
+            </div>
+        </div>
+    `
+}
+
+
 form.addEventListener('submit', (e) => {
     e.preventDefault()
 

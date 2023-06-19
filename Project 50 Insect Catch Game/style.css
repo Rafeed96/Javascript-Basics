@@ -14,6 +14,15 @@ body{
     text-align: center;
 }
 
+.btn {
+    border: 0;
+    background-color: #fff;
+    color: #516dff;
+    padding: 15px 20px;
+    font-family: inherit;
+    cursor: pointer;
+}
+
 .screen {
     display: flex;
     flex-direction: column;

@@ -14,6 +14,14 @@ body{
     text-align: center;
 }
 
+a {
+    color: #fff;
+}
+
+h1 {
+    line-height: 1.4;
+}
+
 .btn {
     border: 0;
     background-color: #fff;
@@ -38,6 +46,14 @@ body{
 
 .screen.up {
     margin-top: -100vh;
+}
+
+.insects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
 }
 
 .choose-insect-btn img {

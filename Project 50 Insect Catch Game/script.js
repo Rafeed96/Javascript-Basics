@@ -32,6 +32,10 @@ function startGame() {
 function increaseTime() {
     let m = Math.floor(seconds / 60)
     let s = seconds % 60
+    m = m < 10 ? `0${m}` : m
+    s = s < 10 ? `0${s}` : s
+    timeEl.innerHTML = `Time: ${m}:${s}`
+    seconds++
 }
 
 function createInsect() {

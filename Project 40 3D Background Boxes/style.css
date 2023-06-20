@@ -44,8 +44,15 @@ body{
 }
 
 .boxes {
+    display: flex;
+    flex-wrap: wrap;
     height: 500px;
     width: 500px;
+}
+
+.boxes.big {
+    height: 600px;
+    width: 600px;
 }
 
 .box {

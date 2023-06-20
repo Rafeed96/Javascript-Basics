@@ -46,8 +46,10 @@ body{
 .boxes {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     height: 500px;
     width: 500px;
+    position: relative;;
 }
 
 .boxes.big {
@@ -56,7 +58,9 @@ body{
 }
 
 .box {
-    background: yellow;
+    background-image: url('https://static.scientificamerican.com/sciam/assets/Image/2019/spinningblackhole.gif');
+    background-repeat: no-repeat;
+    background-size: 500px 500px 69;
     height: 125px;
     width: 125px;
 }

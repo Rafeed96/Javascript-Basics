@@ -11,5 +11,10 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
+    overflow: hidden;
     margin: 0;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/553/854/434/1920x1080-px-digital-art-fantasy-art-landscape-long-hair-ryky-trees-wind-anime-death-note-hd-art-wallpaper-preview.jpg');
+    background-position: center center;
+    background-size: cover;
+    transition: 0.4s;
 }

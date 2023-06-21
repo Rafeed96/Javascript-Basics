@@ -24,6 +24,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;
+    transition: transform 0.5s ease-in-out;
 }
 
 .left-slide > div {
@@ -40,7 +41,6 @@ body{
     font-size: 40px;
     margin-bottom: 10px;
     margin-top: -30px;
-    transition: transform 0.5s ease-in-out ;
 }
 
 
